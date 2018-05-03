@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+<code>.container</code>.
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Pagina de ayuda</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css"/>
+        <script src="assets/js/jquery.min.js"></script>
+        <style>
+
+            #home {
+                left: 0px;
+                width: 46px;
+                background: url('img/globe.svg') 0 0;
+                background-repeat: no-repeat;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="jumbotron">
+            <div class="col-sm-8 mx-auto">
+
+                <h1>¿Que son las secuencias?</h1>
+                <p>Son los diferentes archivos JSON que genera el programa Cursore, y nos sirven para almacenar los diferentes clicks que queremos que el programa realize. <br>
+                <p> Aqui podemos ver un video de ejemplo de como se realiza</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/D0ZMyQiS3SU"  allow="encrypted-media" ></iframe>
+                <p>El sonido que hace los clicks del Cursore son más o menos así</p>
+                <audio controls>
+                    <source src="sound/Click.mp3"
+                            type='audio/mp4'>
+
+                </audio>
+                <p><br> Está bien saberlo, dado que tiene un sonido específico</p>
+                <p>
+
+                    Por último, un ejemplo de codigo en JSON
+                    <textarea  id="data" cols="70" rows="10">
+                        
+                    </textarea>
+                    <br><br>
+                    <button class="btn btn-primary" id="mostrar">Mostrar codigo JSON de ejemplo</button>
+
+                </p>
+
+
+            </div>
+        </div>
+        <script>
+
+            $("#mostrar").click(function () {
+                $.ajax({url: "jsons/Prueba.json", success: function (result) {
+                        document.getElementById("data").innerHTML = JSON.stringify(result);
+                    }});
+            });
+
+        </script>
+    </body>
+</html>

@@ -1,0 +1,48 @@
+{
+
+    "data": [{
+            "random": false,
+            "Randoms": [0, 0],
+            "doble": false,
+            "esCuadrado": false,
+            "teclasaEscribir": null,
+            "sihayTexto": false,
+            "coordenadasClick": null,
+            "alias": "AbrirNavegadorPeroBIEN",
+            "duracionClick": 1600,
+            "coordenadas": [725, 1047]
+        }, {
+            "random": false,
+            "Randoms": [0, 0],
+            "doble": false,
+            "esCuadrado": false,
+            "teclasaEscribir": null,
+            "sihayTexto": false,
+            "coordenadasClick": null,
+            "alias": "DesplegarPestaÃ±a",
+            "duracionClick": 1600,
+            "coordenadas": [2552, 108]
+        }, {
+            "random": false,
+            "Randoms": [0, 0],
+            "doble": false,
+            "esCuadrado": false,
+            "teclasaEscribir": null,
+            "sihayTexto": false,
+            "coordenadasClick": null,
+            "alias": "Abrir pestaÃ±a",
+            "duracionClick": 1600,
+            "coordenadas": [2380, 198]
+        }, {
+            "random": false,
+            "Randoms": [0, 0],
+            "doble": false,
+            "esCuadrado": false,
+            "teclasaEscribir": null,
+            "sihayTexto": false,
+            "coordenadasClick": null,
+            "alias": "CerrarPestaÃ±a",
+            "duracionClick": 3000,
+            "coordenadas": [2543, 42]
+        }]
+}

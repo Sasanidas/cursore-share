@@ -1,0 +1,10 @@
+.mainItems{
+    height: 80px;
+    border-radius: 200px;
+}
+
+@media only screen and (max-width: 860px) {
+    #buttonFont{
+        font-size: 0.7em;
+    }
+}
